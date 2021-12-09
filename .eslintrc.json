@@ -1,0 +1,47 @@
+{
+	"extends": ["eslint:recommended", "google"],
+	"parserOptions": {
+		"ecmaVersion": 6
+	},
+	"env": {
+		"node": true,
+		"mocha": true
+	},
+	"plugins": [
+		"v8-func-inline"
+	],
+	"rules": {
+		"quotes": [1, "double"],
+		"indent": [1, "tab", {"SwitchCase": 1}],
+		"arrow-spacing": 1,
+		"prefer-arrow-callback": [1, { "allowNamedFunctions": true }],
+		"space-infix-ops": [1, {"int32Hint": true}],
+		"space-in-parens": [1, "never"],
+		"handle-callback-err": 2,
+		"brace-style": [1, "stroustrup", { "allowSingleLine": true }],
+		"curly": [1, "multi-line", "consistent"],
+		"keyword-spacing": 
+			[
+				"error", { 
+					"overrides": {
+						"if": { "after": false },
+						"for": { "after": false },
+						"while": { "after": false },
+						"switch": { "after": false },
+						"catch": { "after": false }
+					}
+				}
+			],
+		"quote-props": [2, "always"],
+		"eol-last": 0,
+		"max-len": [1, 180],
+		"comma-dangle": 0,
+		"no-console": 0,
+		"strict": [2, "global"],
+		"v8-func-inline/v8-func-inline" : [1, 10000],
+		"guard-for-in": 0,
+		"linebreak-style": ["error", "windows"],
+		"require-jsdoc": 0,
+		"no-tabs": "off"
+	}
+}

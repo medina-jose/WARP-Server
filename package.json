@@ -1,0 +1,36 @@
+{
+  "name": "vinylplayer-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicaiahReid/VinylPlayer-Server.git"
+  },
+  "author": "Micaiah Reid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicaiahReid/VinylPlayer-Server/issues"
+  },
+  "homepage": "https://github.com/MicaiahReid/VinylPlayer-Server#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "disconnect": "^1.2.1",
+    "easy-pbkdf2": "^0.1.2",
+    "errorhandler": "^1.5.0",
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1",
+    "express": "^4.16.2",
+    "pg": "^7.4.0",
+    "pg-query": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-v8-func-inline": "^1.1.4"
+  }
+}
